@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    h1 {
+      font-family: 'Courier New';
+      color: #feebee;
+      text-align: center;
+    }
+
+    p {
+
+      font-size: 20px;
+      color: #3b0b0b;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #472B21;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+
+    body {
+      background-color: #c99e79;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">DOMŮ</a>
+    <a href="#">O NÁS</a>
+    <a href="#">NAŠE NABÍDKA</a>
+    <a href="#">NAŠE KOČKY</a>
+    <a href="#">ZAMĚSTNANEC MĚSÍCE</a>
+    <a href="#">KOČIČÍ PROSTOR</a>
+    <a href="#">ZAJÍMAVOSTI O KOČKÁCH</a>
+    <a href="#">KONTAKT</a>
+    <a href="#">RECENZE</a>
+  </div>
+
+  <div id="horni">
+    <h1>C@fe</h1>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  </div>
+  <p>Dnešní obědy</p>
+  <ul>
+    <li>Oběd1</li>
+    <li>Oběd2</li>
+    <li>Oběd3</li>
+  </ul>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+</body>
+
+</html>
