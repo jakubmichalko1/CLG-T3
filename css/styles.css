@@ -2,6 +2,7 @@
       color: #feebee;
       text-align: center;
       font-size: 5em;
+      font-family: ;
     }
 
     h2 {
@@ -158,6 +159,8 @@
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 80px;
+      font-family: Aboreto;
+      src: local (Aboreto\Aboreto-Regular.ttf)
     }
 
     #hornilista {
@@ -169,6 +172,5 @@
       top: 8px;
       left: 16px;
       font-size: 18px;
-
       color: #f1f1f1;
     }
