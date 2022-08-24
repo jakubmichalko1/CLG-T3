@@ -3,9 +3,12 @@
       color: #feebee;
       text-align: center;
     }
-
+    h2{
+      font-family: 'Times New Roman';
+    }
+    
     p {
-
+      font-family: 'Times New Roman';
       font-size: 20px;
       color: #3b0b0b;
     }
