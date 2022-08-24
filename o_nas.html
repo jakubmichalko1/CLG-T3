@@ -6,9 +6,39 @@
 </head>
 
 <body>
+
+    <div id="mySidenav" class="sidenav">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">DOMŮ</a>
+        <a href="o_nas.html">O NÁS</a>
+        <a href="nase-nabidka.html">NAŠE NABÍDKA</a>
+        <a href="nase-kocky.html">NAŠE KOČKY</a>
+        <a href="#">ZAMĚSTNANEC MĚSÍCE</a>
+        <a href="#">KOČIČÍ PROSTOR</a>
+        <a href="catfacts.html">ZAJÍMAVOSTI O KOČKÁCH</a>
+        <a href="kontakt.html">KONTAKT</a>
+        <a href="#">RECENZE</a>
+    </div>
+
+    <div id="horni">
+        <h1>Catspace</h1>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
     <h1>O nás</h1>
     <p>Vítejte na našich webových stránkách!<br>
-        Jste milovníkem koček a dobré kávy? 
+        Jste milovníkem koček a dobré kávy?
         Tak nás přijďte navštívit na Prahu 1.<br>
         Můžete si u nás dát kávu s dortíkem
         zatímco budete obklopeni našimi přátelskými kočkami.</p>
