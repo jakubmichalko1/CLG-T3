@@ -103,4 +103,9 @@
     .textonas {
         text-align: center;
         font-size: 2em;
+
+
+    .bcgr {
+      max-width: 100%;
+      height: auto;
     }
