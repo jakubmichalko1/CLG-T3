@@ -12,36 +12,51 @@
 
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="#">DOMŮ</a>
-    <a href="#">O NÁS</a>
+    <a href="o_nas.html">O NÁS</a>
     <a href="nase-nabidka.html">NAŠE NABÍDKA</a>
     <a href="nase-kocky.html">NAŠE KOČKY</a>
     <a href="#">ZAMĚSTNANEC MĚSÍCE</a>
     <a href="#">KOČIČÍ PROSTOR</a>
     <a href="catfacts.html">ZAJÍMAVOSTI O KOČKÁCH</a>
-    <a href="#">KONTAKT</a>
+    <a href="kontakt.html">KONTAKT</a>
     <a href="#">RECENZE</a>
   </div>
 
   <div id="horni">
     <h1>Catspace</h1>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
   </div>
 
-  <div class="kontakty">
-  <h1>Kontakt</h1>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
 
-  <h2>Telefonní ćíslo:</h2>
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+
+
+  <div class="kontakty">
+    <h1>Kontakt</h1>
+
+    <h2>Telefonní ćíslo:</h2>
     <p>+ 420 970 305 900</p><br>
 
-  <h2>e-mail:</h2>
+    <h2>e-mail:</h2>
     <p>kocky@catspace.cz</p><br>
 
-  <h2>Adresa:</h2>
+    <h2>Adresa:</h2>
     <p>Michalská 3, Praha 1, 110 00</p><br>
 
-  
-  <h2>Mapa</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.091697610083!2d14.41775761507862!3d50.084570021542376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94ee93a416c9%3A0x49e1c9b6f7ab3256!2zTWljaGFsc2vDoSAzLCAxMTAgMDAgU3RhcsOpIE3Em3N0bw!5e0!3m2!1ssk!2scz!4v1661335324839!5m2!1ssk!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2>Mapa</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.091697610083!2d14.41775761507862!3d50.084570021542376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94ee93a416c9%3A0x49e1c9b6f7ab3256!2zTWljaGFsc2vDoSAzLCAxMTAgMDAgU3RhcsOpIE3Em3N0bw!5e0!3m2!1ssk!2scz!4v1661335324839!5m2!1ssk!2scz"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
   <script>
