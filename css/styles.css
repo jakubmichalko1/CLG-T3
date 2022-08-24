@@ -8,13 +8,14 @@
 
     h2 {
       font-size: 3em;
-      text-align: left;
+      text-align: center;
       color: #feebee;
+
     }
 
     h3 {
       font-size: 2em;
-      text-align: left;
+      text-align: center;
     }
 
     p {
@@ -109,11 +110,11 @@
     }
 
     .kontakty {
-      text-align: left;
+      text-align: center;
     }
 
     .textonas {
-      text-align: left;
+      text-align: center;
       font-size: 2em;
       margin-left: 1cm;
     }
@@ -174,4 +175,8 @@
       left: 16px;
       font-size: 18px;
       color: #f1f1f1;
+    }
+
+    .container {
+    color: #f1f1f1;
     }
