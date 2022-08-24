@@ -66,6 +66,7 @@
     }
 
     body {
+      margin: 0px;
       background-color: #c99e79;
     }
 
@@ -151,4 +152,8 @@
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 18px;
+    }
+
+ #hornilista {
+      background-image: url('../pics/užitečné\ obrázky/heading.png');
     }
