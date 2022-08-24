@@ -6,13 +6,13 @@
 
     h2 {
       font-size: 3em;
-      text-align: center;
+      text-align: left;
       color: #feebee;
     }
 
     h3 {
       font-size: 2em;
-      text-align: center;
+      text-align: left;
     }
 
     p {
@@ -107,12 +107,13 @@
     }
 
     .kontakty {
-      text-align: center;
+      text-align: left;
     }
 
     .textonas {
-      text-align: center;
+      text-align: left;
       font-size: 2em;
+      margin-left: 1cm;
     }
 
     .bcgr {
@@ -135,8 +136,9 @@
     }
 
     .textonas {
-      text-align: center;
+      text-align: left;
       font-size: 2em;
+      margin-left: 1em;
     }
 
     .bcgr {
@@ -159,7 +161,7 @@
     }
 
     #hornilista {
-      background-image: url('../pics/užitečné\ obrázky/heading.png');
+      background-image: url('../pics/užitečné\ obrázky/arabicate.jpg');
     }
 
     .topleft {
