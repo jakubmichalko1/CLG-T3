@@ -2,10 +2,12 @@
       font-family: 'Courier New';
       color: #feebee;
       text-align: center;
+      font-size: 3em;
     }
 
     h2 {
       font-family: 'Times New Roman';
+      font-size: 1em;
     }
 
     p {
@@ -101,17 +103,18 @@
     .kontakty {
       text-align: center;
 
-    } 
+    }
 
-  .textonas {
-  text-align: center;
-  font-size: 2em;
-  }
+    .textonas {
+      text-align: center;
+      font-size: 2em;
+    }
 
-  .bcgr {
-  max-width: 100%;
-  height: auto;
-  }
+    .bcgr {
+      max-width: 100%;
+      height: auto;
+    }
+
     .recenze {
       margin-left: 1cm;
     }
@@ -131,20 +134,18 @@
     }
 
     .bcgr {
-        max-width: 100%;
-        height: auto;
-        }
-   .container {
-          position: relative;
-        }
-        
+      max-width: 100%;
+      height: auto;
+    }
+
+    .container {
+      position: relative;
+    }
+
     .center {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          font-size: 18px;
-        }
-    
-
-
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+    }
