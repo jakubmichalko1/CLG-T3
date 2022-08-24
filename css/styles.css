@@ -82,6 +82,9 @@
       width: 50%;
     }
 
+    .kontakty {
+      margin-left: 1cm;
+    } 
     .obrazky-nabidka li {
       display: inline-block;
     }
