@@ -156,21 +156,18 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 18px;
+      font-size: 80px;
     }
-
 
     #hornilista {
       background-image: url('../pics/užitečné\ obrázky/heading.png');
-
     }
-
-
-
 
     .topleft {
       position: absolute;
       top: 8px;
       left: 16px;
       font-size: 18px;
+
+      color: #f1f1f1;
     }
