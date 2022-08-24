@@ -1,7 +1,9 @@
-img {
-    width: 200px;
-}
-
 .kava-obrazek {
     width: 200px;
 }
+.obrazky {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
