@@ -2,7 +2,8 @@
       color: #feebee;
       text-align: center;
       font-size: 5em;
-      font-family:
+      font-family: 'Times New Roman', ;
+
     }
 
     h2 {
@@ -160,7 +161,7 @@
       transform: translate(-50%, -50%);
       font-size: 80px;
       font-family: Aboreto;
-      src: local (Aboreto\Aboreto-Regular.ttf)
+      src: local (<Aboreto\Aboreto-Regular.ttf>)
     }
 
     #hornilista {
