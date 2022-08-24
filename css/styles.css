@@ -1,11 +1,13 @@
     h1 {
       color: #feebee;
       text-align: center;
-      font-size: 3em;
+      font-size: 5em;
     }
 
     h2 {
-      font-size: 1.5em;
+      font-size: 3em;
+      text-align: center;
+      color: #feebee;
     }
 
     p {
@@ -149,17 +151,17 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 18px;
+      font-size: 80px;
     }
 
     #hornilista {
       background-image: url('../pics/užitečné\ obrázky/heading.png');
     }
 
-
     .topleft {
       position: absolute;
       top: 8px;
       left: 16px;
       font-size: 18px;
+      color: #f1f1f1;
     }
