@@ -82,6 +82,17 @@
       border-radius: 20%;
     }
 
+    .kocky {
+      margin-left: 1cm;
+    }
+
+    .obrazky-zakusky {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
     .kontakty {
       margin-left: 1cm;
     } 
