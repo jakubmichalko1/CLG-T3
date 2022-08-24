@@ -151,17 +151,15 @@
       transform: translate(-50%, -50%);
       font-size: 18px;
     }
-<<<<<<< Updated upstream
 
     #hornilista {
       background-image: url('../pics/užitečné\ obrázky/heading.png');
     }
-    
-=======
+
+
     .topleft {
       position: absolute;
       top: 8px;
       left: 16px;
       font-size: 18px;
     }
->>>>>>> Stashed changes
