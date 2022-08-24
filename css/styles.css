@@ -101,6 +101,15 @@
       text-align: center;
     } 
 
+  .textonas {
+  text-align: center;
+  font-size: 2em;
+  }
+
+  .bcgr {
+  max-width: 100%;
+  height: auto;
+  }
     .recenze {
       margin-left: 1cm;
     }
@@ -109,3 +118,4 @@
       border: 5px solid rgb(49, 30, 14);
       border-radius: 20%;
     }
+
