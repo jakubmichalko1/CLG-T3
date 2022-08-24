@@ -100,3 +100,12 @@
     .kontakty {
       text-align: center;
     } 
+
+    .recenze {
+      margin-left: 1cm;
+    }
+
+    .recenze img {
+      border: 5px solid rgb(49, 30, 14);
+      border-radius: 20%;
+    }
