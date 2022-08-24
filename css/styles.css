@@ -71,8 +71,19 @@
       width: 200px;
     }
 
+    .obrazky-nabidka li{
+        display: inline-block;
+        margin: 15px;
+        height: 200px;
+    }
+
     .kocky img {
       border: 5px solid rgb(49, 30, 14);
+      border-radius: 20%;
+    }
+
+    .kocky {
+      margin-left: 1cm;
     }
 
     .obrazky-zakusky {
@@ -82,6 +93,6 @@
       width: 50%;
     }
 
-    .obrazky-nabidka li {
-      display: inline-block;
-    }
+    .kontakty {
+      margin-left: 1cm;
+    } 
