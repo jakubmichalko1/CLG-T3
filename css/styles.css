@@ -2,18 +2,18 @@
       color: #feebee;
       text-align: center;
       font-size: 5em;
-      font-family: ;
     }
 
     h2 {
       font-size: 3em;
-      text-align: left;
+      text-align: center;
       color: #feebee;
+
     }
 
     h3 {
       font-size: 2em;
-      text-align: left;
+      text-align: center;
     }
 
     p {
@@ -108,11 +108,11 @@
     }
 
     .kontakty {
-      text-align: left;
+      text-align: center;
     }
 
     .textonas {
-      text-align: left;
+      text-align: center;
       font-size: 2em;
       margin-left: 1cm;
     }
