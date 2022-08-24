@@ -100,3 +100,8 @@
     .kontakty {
       text-align: center;
     } 
+
+    .bcgr {
+      max-width: 100%;
+      height: auto;
+    }
