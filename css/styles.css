@@ -65,3 +65,12 @@
     body {
       background-color: #c99e79;
     }
+    .kava-obrazek {
+        width: 200px;
+    }
+    .obrazky-zakusky {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
