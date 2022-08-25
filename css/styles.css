@@ -9,8 +9,6 @@ h1 {
   color: #feebee;
   text-align: center;
   font-size: 5em;
-  font-family: 'Times New Roman', ;
-  padding-bottom: 70px;
   font-family: 'Aboreto', cursive;
 }
 
@@ -35,8 +33,6 @@ p {
 span {
   color: #f1f1f1;
   font-size: 60px;
-  margin-left: 1cm;
-  margin-top: 1cm;
 }
 
 .sidenav {
@@ -176,18 +172,28 @@ span {
 
 #hornilista {
   background-image: url('../pics/užitečné\ obrázky/arabicate.jpg');
-  height: 40vh;
+  height: auto;
 }
 
-#hornilista {
-  background-image: url('../pics/užitečné\ obrázky/arabicate.jpg');
+#headermenu {
+  text-align: center;
+}
+
+#headertext {
+  text-align: center;
+}
+
+#headertable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px;
 }
 
 .topleft {
   position: absolute;
   top: 16px;
   left: 16px;
-  ;
+
 }
 
 .container {
