@@ -206,7 +206,7 @@ span {
   display: flex;
   flex-direction: row;
   }
-  
+
   .kocicikavarna {
     height: 300px;
     object-position: right;
@@ -217,4 +217,5 @@ span {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border-radius: 20%;
   }
