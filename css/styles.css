@@ -228,10 +228,7 @@ span {
   display: block;
 }
 
-.sloupce {
-  display: flex;
-  flex-direction: row;
-}
+
 
 .kocicikavarna {
   height: 300px;
