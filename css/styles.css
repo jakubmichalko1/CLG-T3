@@ -193,3 +193,10 @@ span {
   width: auto;
   height: 360px;
 }
+
+.recenze-obrazky {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
