@@ -21,41 +21,54 @@
     </div>
 
     <div id="hornilista">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        <h1>Catspace</h1>
-    </div>
-
-        <script>
-            function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-            }
-
-            function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-            }
-        </script>
-
-        <h2>O nás</h2>
-        <p class="textonas">Vítejte na našich webových stránkách!<br>
-            Jste milovníkem koček a dobré kávy?
-            Tak nás přijďte navštívit na Prahu 1.<br>
-            Můžete si u nás dát kávu s dortíkem
-            zatímco budete obklopeni našimi přátelskými kočkami.</p>
-
-        <p class="textonas"> <b>Otevírací doba:</b> </p>
-        <table class="textonas">
+        <table id="headertable">
             <tr>
-                <td>Po - Pá </td>
-                <td>8:00 - 20:00</td>
-            </tr>
-            <tr>
-                <td>So - Ne</td>
-                <td>9:00 - 19:00</td>
+                <td width="50px">
+                    <div id="headermenu">
+                        <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+                    </div>
+                </td>
+                <td>
+                    <div id="headertext">
+                        <h1>Catspace</h1>
+                    </div>
+                </td>
             </tr>
         </table>
-        <div class="kavarna">
-            <img src="./pics/užitečné obrázky/kocici kavarna.jpg" class="kocicikavarna" />
-        </div>
+    </div>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <h2>O nás</h2>
+    <p class="textonas">Vítejte na našich webových stránkách!<br>
+        Jste milovníkem koček a dobré kávy?
+        Tak nás přijďte navštívit na Prahu 1.<br>
+        Můžete si u nás dát kávu s dortíkem
+        zatímco budete obklopeni našimi přátelskými kočkami.</p>
+
+    <p class="textonas"> <b>Otevírací doba:</b> </p>
+    <table class="textonas">
+        <tr>
+            <td>Po - Pá </td>
+            <td>8:00 - 20:00</td>
+        </tr>
+        <tr>
+            <td>So - Ne</td>
+            <td>9:00 - 19:00</td>
+        </tr>
+    </table>
+    <div class="kavarna">
+        <img src="./pics/užitečné obrázky/kocici kavarna.jpg" class="kocicikavarna" />
+    </div>
 
 </body>
 
