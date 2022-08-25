@@ -228,10 +228,14 @@ span {
   display: block;
 }
 
+<<<<<<< Updated upstream
+
+=======
 .sloupce {
   display: flex;
   flex-direction: row;
 }
+>>>>>>> Stashed changes
 
 .kocicikavarna {
   height: 300px;
@@ -246,4 +250,9 @@ span {
 
   border-radius: 20%;
   height: 300px;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+>>>>>>> Stashed changes
