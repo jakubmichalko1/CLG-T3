@@ -108,6 +108,7 @@ span {
 }
 
 .kocky {
+  text-align: center;
   margin-left: 1cm;
 }
 
@@ -191,4 +192,11 @@ span {
 
 .container {
   color: #f1f1f1;
+}
+
+.phonecat img {
+  border: 5px solid rgb(49, 30, 14);
+  border-radius: 50%;
+  width: auto;
+  height: 360px;
 }
