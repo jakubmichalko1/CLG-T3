@@ -9,15 +9,16 @@ h1 {
   color: #feebee;
   text-align: center;
   font-size: 5em;
+  font-family: 'Times New Roman', ;
+  padding-bottom: 70px;
   font-family: 'Aboreto', cursive;
-
 }
 
 h2 {
   font-size: 3em;
   text-align: center;
   color: #feebee;
-
+  text-decoration: underline;
 }
 
 h3 {
@@ -34,8 +35,6 @@ p {
 span {
   color: #f1f1f1;
 }
-
-
 
 .sidenav {
   height: 100%;
