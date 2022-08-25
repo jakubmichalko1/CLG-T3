@@ -205,3 +205,10 @@ span {
   height: 300px;
   object-position: right;
 }
+
+.kavarna img{
+  border: 5px solid rgb(49, 30, 14);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
