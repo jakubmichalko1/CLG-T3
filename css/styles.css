@@ -196,19 +196,21 @@ span {
 
 .recenze-obrazky {
   margin-top: 20px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
 }
 
-  .sloupce {
-  display: flex;
-  flex-direction: row;
+.sloupce {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-  .kavarna img {
-    border: 5px solid rgb(49, 30, 14);
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+.kavarna img {
+  border: 5px solid rgb(49, 30, 14);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
