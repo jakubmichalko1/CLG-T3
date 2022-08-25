@@ -201,7 +201,6 @@ span {
   border-radius: 100%;
 }
 
-
   .sloupce {
   display: flex;
   flex-direction: row;
@@ -217,5 +216,7 @@ span {
     margin-left: auto;
     margin-right: auto;
     display: block;
+
     border-radius: 20%;
+    height: 300px;
   }
