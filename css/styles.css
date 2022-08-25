@@ -204,7 +204,7 @@ span {
   border: 5px solid rgb(49, 30, 14);
   border-radius: 50%;
   width: auto;
-  height: 360px;
+  height: 350px;
 }
 
 .recenze-obrazky {
@@ -228,14 +228,10 @@ span {
   display: block;
 }
 
-<<<<<<< Updated upstream
-
-=======
 .sloupce {
   display: flex;
   flex-direction: row;
 }
->>>>>>> Stashed changes
 
 .kocicikavarna {
   height: 300px;
@@ -250,9 +246,4 @@ span {
 
   border-radius: 20%;
   height: 300px;
-<<<<<<< Updated upstream
 }
-=======
-}
-
->>>>>>> Stashed changes
