@@ -228,13 +228,6 @@ span {
   display: block;
 }
 
-
-.sloupce {
-  display: flex;
-  flex-direction: row;
-}
-
-
 .kocicikavarna {
   height: 300px;
   object-position: right;
@@ -248,9 +241,4 @@ span {
 
   border-radius: 20%;
   height: 300px;
-<<<<<<< Updated upstream
 }
-=======
-}
-
->>>>>>> Stashed changes
