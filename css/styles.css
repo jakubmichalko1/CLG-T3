@@ -204,7 +204,7 @@ span {
   border: 5px solid rgb(49, 30, 14);
   border-radius: 50%;
   width: auto;
-  height: 360px;
+  height: 350px;
 }
 
 .recenze-obrazky {
@@ -226,6 +226,11 @@ span {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.sloupce {
+  display: flex;
+  flex-direction: row;
 }
 
 .kocicikavarna {
