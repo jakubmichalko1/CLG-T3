@@ -1,183 +1,184 @@
-    h1 {
-      color: #feebee;
-      text-align: center;
-      font-size: 5em;
-      font-family: 'Times New Roman', ;
-      padding-bottom: 70px;
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
-    }
+h1 {
+  color: #feebee;
+  text-align: center;
+  font-size: 5em;
+  font-family: 'Times New Roman', ;
+  padding-bottom: 70px;
+  font-family: 'Aboreto', cursive;
+}
 
-    h2 {
-      font-size: 3em;
-      text-align: center;
-      color: #feebee;
+h2 {
+  font-size: 3em;
+  text-align: center;
+  color: #feebee;
+  text-decoration: underline;
+}
 
-    }
+h3 {
+  font-size: 2em;
+  text-align: center;
+}
 
-    h3 {
-      font-size: 2em;
-      text-align: center;
-    }
-
-    p {
-      font-family: 'Times New Roman';
-      font-size: 20px;
-      color: #3b0b0b;
-    }
+p {
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  color: #3b0b0b;
+}
 
 
-    .sidenav {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #472B21;
-      overflow-x: hidden;
-      transition: 0.5s;
-      padding-top: 60px;
-    }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #472B21;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
-    .sidenav a {
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #818181;
-      display: block;
-      transition: 0.3s;
-    }
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
 
-    .sidenav a:hover {
-      color: #f1f1f1;
-    }
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
-    .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px;
-    }
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
-    @media screen and (max-height: 450px) {
-      .sidenav {
-        padding-top: 15px;
-      }
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
 
-      .sidenav a {
-        font-size: 18px;
-      }
-    }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
 
-    .prvniodstavec {
-      font-weight: bold;
-    }
+.prvniodstavec {
+  font-weight: bold;
+}
 
-    body {
-      margin: 0px;
-      background-color: #c99e79;
-    }
+body {
+  margin: 0px;
+  background-color: #c99e79;
+}
 
-    .kava-obrazek {
-      width: 200px;
-    }
+.kava-obrazek {
+  width: 200px;
+}
 
-    .obrazky-nabidka li {
-      display: inline-block;
-      margin: 15px;
-      height: 200px;
-    }
+.obrazky-nabidka li {
+  display: inline-block;
+  margin: 15px;
+  height: 200px;
+}
 
-    .kocky img {
-      border: 5px solid rgb(49, 30, 14);
-      border-radius: 20%;
-    }
+.kocky img {
+  border: 5px solid rgb(49, 30, 14);
+  border-radius: 20%;
+}
 
-    .obrazky-nabidka img {
-      border: 5px solid rgb(49, 30, 14);
-      border-radius: 20%;
-    }
+.obrazky-nabidka img {
+  border: 5px solid rgb(49, 30, 14);
+  border-radius: 20%;
+}
 
-    .kocky {
-      margin-left: 1cm;
-    }
+.kocky {
+  margin-left: 1cm;
+}
 
-    .obrazky-zakusky {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
+.obrazky-zakusky {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-    .kontakty {
-      text-align: center;
-    }
+.kontakty {
+  text-align: center;
+}
 
-    .textonas {
-      text-align: center;
-      font-size: 2em;
-      margin-left: 1cm;
-    }
+.textonas {
+  text-align: center;
+  font-size: 2em;
+  margin-left: 1cm;
+}
 
-    .bcgr {
-      max-width: 100%;
-      height: auto;
-      margin: 0cm;
-    }
+.bcgr {
+  max-width: 100%;
+  height: auto;
+  margin: 0cm;
+}
 
-    .recenze {
-      margin-left: 1cm;
-    }
+.recenze {
+  margin-left: 1cm;
+}
 
-    .recenze img {
-      border: 5px solid rgb(49, 30, 14);
-      border-radius: 50%;
-    }
+.recenze img {
+  border: 5px solid rgb(49, 30, 14);
+  border-radius: 50%;
+}
 
-    .recenze-obrazky {
-      border-radius: 50%;
-    }
+.recenze-obrazky {
+  border-radius: 50%;
+}
 
-    .textonas {
-      text-align: left;
-      font-size: 2em;
-      margin-left: 1em;
-    }
+.textonas {
+  text-align: left;
+  font-size: 2em;
+  margin-left: 1em;
+}
 
-    .bcgr {
-      max-width: 100%;
-      margin: 0cm;
-      height: auto;
-    }
+.bcgr {
+  max-width: 100%;
+  margin: 0cm;
+  height: auto;
+}
 
-    .container {
-      position: relative;
-    }
+.container {
+  position: relative;
+}
 
-    .center {
+.center {
 
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 80px;
-      font-family: Aboreto;
-      src: local (<Aboreto\Aboreto-Regular.ttf>)
-    }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-family: 'Aboreto', cursive;
+}
 
-    #hornilista {
-      background-image: url('../pics/užitečné\ obrázky/arabicate.jpg');
-    }
+#hornilista {
+  background-image: url('../pics/užitečné\ obrázky/arabicate.jpg');
+}
 
-    .topleft {
-      position: absolute;
-      top: 8px;
-      left: 16px;
-      font-size: 18px;
-      color: #f1f1f1;
-    }
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+  color: #f1f1f1;
+}
 
-    .container {
-      color: #f1f1f1;
-    }
+.container {
+  color: #f1f1f1;
+}
