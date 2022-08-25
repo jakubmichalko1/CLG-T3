@@ -201,15 +201,11 @@ span {
   border-radius: 100%;
 }
 
-.kocicikavarna {
-  height: 300px;
-  object-position: right;
-}
-
-.sloupce {
+  .sloupce {
   display: flex;
   flex-direction: row;
 }
+
   .kavarna img {
     border: 5px solid rgb(49, 30, 14);
     margin-left: auto;
