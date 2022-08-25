@@ -209,27 +209,43 @@ span {
 
 .recenze-obrazky {
   margin-top: 20px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
 }
 
-  .sloupce {
+.sloupce {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.kavarna img {
+  border: 5px solid rgb(49, 30, 14);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+=======.sloupce {
   display: flex;
   flex-direction: row;
-  }
+}
 
-  .kocicikavarna {
-    height: 300px;
-    object-position: right;
-  }
+.kocicikavarna {
+  height: 300px;
+  object-position: right;
+}
 
-  .kavarna img {
-    border: 5px solid rgb(49, 30, 14);
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+.kavarna img {
+  border: 5px solid rgb(49, 30, 14);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 
-    border-radius: 20%;
-    height: 300px;
-  }
+  border-radius: 20%;
+  height: 300px;
+}
+
+>>>>>>>3d6938abb62f4d6df627fb147b67919e05146f4b
