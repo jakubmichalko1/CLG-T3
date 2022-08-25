@@ -9,8 +9,6 @@ h1 {
   color: #feebee;
   text-align: center;
   font-size: 5em;
-  font-family: 'Times New Roman', ;
-  padding-bottom: 70px;
   font-family: 'Aboreto', cursive;
 }
 
@@ -34,7 +32,7 @@ p {
 
 span {
   color: #f1f1f1;
-  font-size: 2em;
+  font-size: 60px;
 }
 
 .sidenav {
@@ -174,13 +172,28 @@ span {
 
 #hornilista {
   background-image: url('../pics/užitečné\ obrázky/arabicate.jpg');
+  height: auto;
+}
+
+#headermenu {
+  text-align: center;
+}
+
+#headertext {
+  text-align: center;
+}
+
+#headertable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px;
 }
 
 .topleft {
   position: absolute;
-  top: 8px;
+  top: 16px;
   left: 16px;
-  font-size: 18px;
+
 }
 
 .container {
@@ -214,3 +227,25 @@ span {
   margin-right: auto;
   display: block;
 }
+
+=======.sloupce {
+  display: flex;
+  flex-direction: row;
+}
+
+.kocicikavarna {
+  height: 300px;
+  object-position: right;
+}
+
+.kavarna img {
+  border: 5px solid rgb(49, 30, 14);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  border-radius: 20%;
+  height: 300px;
+}
+
+>>>>>>>3d6938abb62f4d6df627fb147b67919e05146f4b

@@ -21,49 +21,61 @@
     </div>
 
     <div id="hornilista">
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        <h1>Catspace</h1>
+        <table id="headertable">
+          <tr>
+            <td width="50px">
+              <div id="headermenu">
+                <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+              </div>
+            </td>
+            <td>
+              <div id="headertext">
+                <h1>Catspace</h1>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    
 
-    </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
 
-    <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-        }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
 
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
+        <div class="kocky">
+            <h2>Naše kočky</h2>
+            <img src="./pics/naše kočky/2 kotata.jpg" />
+            <p>Nejmladší členové - nová dvouměsíční koťátka <b>Matylda a Klotylda</b></p>
 
-    <div class="kocky">
-        <h2>Naše kočky</h2>
-        <img src="./pics/naše kočky/2 kotata.jpg" />
-        <p>Nejmladší členové - nová dvouměsíční koťátka <b>Matylda a Klotylda</b></p>
+            <img src="./pics/naše kočky/kocka sofca.jpg" />
+            <p>Přátelštější kočku nenajdete - kočka <b>Sofča</b></p>
 
-        <img src="./pics/naše kočky/kocka sofca.jpg" />
-        <p>Přátelštější kočku nenajdete - kočka <b>Sofča</b></p>
+            <img src="./pics/naše kočky/kocour tonda.jpg" />
+            <p>Jediný kluk u nás - kocour <b>Tonda</b></p>
 
-        <img src="./pics/naše kočky/kocour tonda.jpg" />
-        <p>Jediný kluk u nás - kocour <b>Tonda</b></p>
-
-        <img src="./pics/naše kočky/kocka hildegarda.jpg" />
-        <p>Největší pohodářka - kočka <b>Hildegarda</b></p>
+            <img src="./pics/naše kočky/kocka hildegarda.jpg" />
+            <p>Největší pohodářka - kočka <b>Hildegarda</b></p>
 
 
-        <img src="./pics/naše kočky/kocka josefina.jpg" />
-        <p>Spánkový odborník - tříletá kočka <b>Josefína</b></p>
+            <img src="./pics/naše kočky/kocka josefina.jpg" />
+            <p>Spánkový odborník - tříletá kočka <b>Josefína</b></p>
 
 
-        <img src="./pics/naše kočky/kocka justyna.jpg" />
-        <p>Kočka <b>Justýna</b> nám tady na všechno dohlíží</p>
+            <img src="./pics/naše kočky/kocka justyna.jpg" />
+            <p>Kočka <b>Justýna</b> nám tady na všechno dohlíží</p>
 
-        <img src="./pics/naše kočky/kocky kobliha a bublina.jpg" />
-        <p>Plemeno siamských koček - <b>Kobliha a Bublina</b></p>
+            <img src="./pics/naše kočky/kocky kobliha a bublina.jpg" />
+            <p>Plemeno siamských koček - <b>Kobliha a Bublina</b></p>
 
-        <img src="./pics/naše kočky/kocka liza.jpg">
-        <p>Jedenáctiletá <b>Líza</b> je naší nejstarší kočkou</p>
-    </div>
+            <img src="./pics/naše kočky/kocka liza.jpg">
+            <p>Jedenáctiletá <b>Líza</b> je naší nejstarší kočkou</p>
+        </div>
 
 </body>
 
