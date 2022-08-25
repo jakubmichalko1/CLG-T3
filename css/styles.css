@@ -34,7 +34,9 @@ p {
 
 span {
   color: #f1f1f1;
-  font-size: 2em;
+  font-size: 60px;
+  margin-left: 1cm;
+  margin-top: 1cm;
 }
 
 .sidenav {
@@ -173,13 +175,18 @@ span {
 
 #hornilista {
   background-image: url('../pics/užitečné\ obrázky/arabicate.jpg');
+  height: 40vh;
+}
+
+#hornilista {
+  background-image: url('../pics/užitečné\ obrázky/arabicate.jpg');
 }
 
 .topleft {
   position: absolute;
-  top: 8px;
+  top: 16px;
   left: 16px;
-  font-size: 18px;
+  ;
 }
 
 .container {
