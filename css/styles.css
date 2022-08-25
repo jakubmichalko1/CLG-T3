@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
+body {
+  margin: 0px;
+  background-color: #c99e79;
+}
+
 h1 {
   color: #feebee;
   text-align: center;
@@ -27,6 +32,10 @@ p {
   color: #3b0b0b;
 }
 
+span {
+  color: #f1f1f1;
+  font-size: 2em;
+}
 
 .sidenav {
   height: 100%;
@@ -74,11 +83,6 @@ p {
 
 .prvniodstavec {
   font-weight: bold;
-}
-
-body {
-  margin: 0px;
-  background-color: #c99e79;
 }
 
 .kava-obrazek {
@@ -176,7 +180,6 @@ body {
   top: 8px;
   left: 16px;
   font-size: 18px;
-  color: #f1f1f1;
 }
 
 .container {
